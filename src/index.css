@@ -1,5 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+
+.custom-btn {
+  @apply bg-primary-color text-black font-playfair px-4 py-2 rounded-3xl;
+}
