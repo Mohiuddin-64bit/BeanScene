@@ -27,7 +27,7 @@ const Navbar = () => {
                 </svg>
               </label>
             </div>
-            <div className="px-2 text-4xl col-span-2 md:col-span-1 mx-2 font-clicker  text-white">
+            <div className="px-2 text-5xl font-bold col-span-2 md:col-span-1 mx-2 font-clicker  text-white">
               Bean Scene
             </div>
             <div className="hidden lg:block mx-auto">
@@ -47,7 +47,8 @@ const Navbar = () => {
               </ul>
             </div>
             <div className="ml-auto hidden md:block">
-              <a className="custom-btn">Button</a>
+              <a className=" bg-transparent text-white hover:bg-primary-color hover:text-black transition-all mr-3 font-playfair px-4 py-2 rounded-3xl">Sign In</a>
+              <a className="custom-btn hover:bg-transparent">Sign Up</a>
             </div>
           </div>
           {/* Page content here */}
