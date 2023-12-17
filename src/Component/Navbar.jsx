@@ -32,23 +32,23 @@ const Navbar = () => {
             </div>
             <div className="hidden lg:block mx-auto">
               <ul className="menu menu-horizontal">
-                <li className="text-white">
+                <li className="text-white hover:text-primary-color">
                   <a>Home</a>
                 </li>
-                <li className="text-white">
+                <li className="text-white hover:text-primary-color">
                   <a>Menu</a>
                 </li>
-                <li className="text-white">
+                <li className="text-white hover:text-primary-color">
                   <a>About Us</a>
                 </li>
-                <li className="text-white">
+                <li className="text-white hover:text-primary-color">
                   <a>Contact Us</a>
                 </li>
               </ul>
             </div>
             <div className="ml-auto hidden md:block">
-              <a className=" bg-transparent text-white hover:bg-primary-color hover:text-black transition-all mr-3 font-playfair px-4 py-2 rounded-3xl">Sign In</a>
-              <a className="custom-btn hover:bg-transparent">Sign Up</a>
+              <a className=" bg-transparent font-bold text-white hover:bg-primary-color hover:text-black transition-all mr-3 font-playfair px-4 py-2 rounded-3xl">Sign In</a>
+              <a className="custom-btn hover:bg-transparent hover:text-white transition-all">Sign Up</a>
             </div>
           </div>
           {/* Page content here */}
@@ -63,16 +63,16 @@ const Navbar = () => {
             <div className="flex justify-center min-h-screen">
               <ul className="menu p-4 w-80 text-2xl items-center justify-center min-h-full ">
                 {/* Sidebar content here */}
-                <li >
+                <li className="hover:text-primary-color">
                   <a>Home</a>
                 </li>
-                <li >
+                <li className="hover:text-primary-color">
                   <a>Menu</a>
                 </li>
-                <li >
+                <li className="hover:text-primary-color">
                   <a>About Us</a>
                 </li>
-                <li >
+                <li className="hover:text-primary-color">
                   <a>Contact Us</a>
                 </li>
               </ul>

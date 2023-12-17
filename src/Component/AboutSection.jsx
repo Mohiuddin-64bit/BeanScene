@@ -21,9 +21,8 @@ const AboutSection = () => {
           <img src="img/coffee-beans.png" alt="description" />
         </div>
       </div>
-      <div className="absolute -bottom-32 lg:-bottom-14">
-
-      <img src="img/side-img.png" alt="" />
+      <div className="absolute -bottom-32 xl:-bottom-40 2xl:-bottom-24">
+        <img src="img/side-img.png" alt="" />
       </div>
     </div>
   );
