@@ -13,7 +13,7 @@ body {
 
 
 .custom-btn {
-  @apply bg-primary-color text-black font-playfair px-4 py-2 rounded-3xl;
+  @apply bg-primary-color text-black font-playfair px-4 py-2 rounded-3xl font-bold;
 }
 
 .p-default {
