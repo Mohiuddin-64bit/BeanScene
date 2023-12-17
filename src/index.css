@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Playfair Display', serif;
-  background-color: #f3f4f6;
   color: #1f2937;
 }
 
@@ -15,4 +14,8 @@ body {
 
 .custom-btn {
   @apply bg-primary-color text-black font-playfair px-4 py-2 rounded-3xl;
+}
+
+.p-default {
+  @apply pt-12 md:pt-20 lg:pt-36 px-8 md:px-16 lg:px-24
 }

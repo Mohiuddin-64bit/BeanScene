@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         'primary-color': '#F9C06A',
-        'customColor2': '#abcdef',
+        'secondary-color': '#603809',
       },
     },
     fontFamily: {
