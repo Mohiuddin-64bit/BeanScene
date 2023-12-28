@@ -3,9 +3,6 @@ const Hero = () => {
     <div>
       <div
         className="hero h-[80vh] bg-cover bg-center bg-[url('img/hero.png')]"
-        style={{
-          // backgroundImage: "url(img/hero.png)",
-        }}
       >
         <div className="hero-overlay bg-opacity-40"></div>
         <div className=" lg:text-left text-center text-neutral-content">
